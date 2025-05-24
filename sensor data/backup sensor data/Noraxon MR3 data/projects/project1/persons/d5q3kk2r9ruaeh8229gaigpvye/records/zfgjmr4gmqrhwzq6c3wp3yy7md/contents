@@ -1,0 +1,17 @@
+﻿OPENDATA TimeRecord [
+   name: "walking test";
+   application: "myomotion";
+   person: "d5q3kk2r9ruaeh8229gaigpvye";
+   origin: ();
+   dateOfMeasurement: "31-03-2025 10:55:05.973-04:00";
+   dateOfChange: "23-05-2025 23:45:41.000-04:00";
+   createdWithVersion: "Noraxon MR3 3.20.68";
+   comment: "";
+   picture: ();
+   tags: [ ];
+   anCode: ();
+   measOptions: [ ];
+   data: PxStream "data";
+   layout: PxStream "layout";
+   hardware_log: PxStream "hardware_log.txt";
+];

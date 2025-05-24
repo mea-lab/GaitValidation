@@ -1,0 +1,17 @@
+﻿OPENDATA TimeRecord [
+   name: "Free Capture";
+   application: "time_based";
+   person: "5sp47xp48fhwwekr4ytwa5qnpb";
+   origin: ();
+   dateOfMeasurement: "17-03-2025 14:44:05.226-04:00";
+   dateOfChange: "23-05-2025 23:36:57.000-04:00";
+   createdWithVersion: "Noraxon MR 4.0.58";
+   comment: "";
+   picture: ();
+   tags: [ ];
+   anCode: ();
+   measOptions: [ ];
+   data: PxStream "data";
+   layout: PxStream "layout";
+   hardware_log: PxStream "hardware_log.txt";
+];

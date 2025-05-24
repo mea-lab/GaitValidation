@@ -1,0 +1,24 @@
+﻿[\\?\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed}, \\?\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed}]
+Ultium Motion Serial# 60eb0 @ human.lt.leg.foot
+Ultium Motion Serial# 60eb1 @ human.rt.leg.foot
+Ultium Motion Serial# 60eb2 @ human.lt.leg.shank
+Ultium Motion Serial# 60eb3 @ human.rt.leg.shank
+Ultium Motion Serial# 60eb4 @ human.lt.leg.thigh
+Ultium Motion Serial# 60eb5 @ human.rt.leg.thigh
+Ultium Motion Serial# 60eb6 @ human.spine.lower
+Ultium Motion Serial# 60eb0 @ human.lt.leg.foot
+Ultium Motion Serial# 60eb1 @ human.rt.leg.foot
+Ultium Motion Serial# 60eb2 @ human.lt.leg.shank
+Ultium Motion Serial# 60eb3 @ human.rt.leg.shank
+Ultium Motion Serial# 60eb4 @ human.lt.leg.thigh
+Ultium Motion Serial# 60eb5 @ human.rt.leg.thigh
+Ultium Motion Serial# 60eb6 @ human.spine.lower
+Ultium Motion Serial# 60eb0 @ human.lt.leg.foot
+Ultium Motion Serial# 60eb1 @ human.rt.leg.foot
+Ultium Motion Serial# 60eb2 @ human.lt.leg.shank
+Ultium Motion Serial# 60eb3 @ human.rt.leg.shank
+Ultium Motion Serial# 60eb4 @ human.lt.leg.thigh
+Ultium Motion Serial# 60eb5 @ human.rt.leg.thigh
+Ultium Motion Serial# 60eb6 @ human.spine.lower
+
+

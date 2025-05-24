@@ -1,0 +1,94 @@
+﻿OPENDATA Person [
+   firstName: "";
+   lastName: "Diz001";
+   hash: "";
+   sex: "female";
+   born: ();
+   picture: ();
+   comment: "";
+   custom: [
+      weight: WeightProperty [
+         name: "Weight";
+         value: ();
+      ];
+      height: LengthProperty [
+         name: "Height";
+         value: 1.557;
+      ];
+      street: StringProperty [
+         name: "Street";
+         value: "";
+      ];
+      cityCode: StringProperty [
+         name: "City & Code";
+         value: "";
+      ];
+      country: StringProperty [
+         name: "Country";
+         value: "";
+      ];
+      telephoneD: StringProperty [
+         name: "Telephone D.";
+         value: "";
+      ];
+      telephoneP: StringProperty [
+         name: "Telephone P.";
+         value: "";
+      ];
+      sendBy: StringProperty [
+         name: "Send by";
+         value: "";
+      ];
+   ];
+   bones: Person.Bone_set [
+      T"skull.height": [
+         size: 0.20241;
+      ];
+      T"shoulder.width": [
+         size: 0.3114;
+      ];
+      T"spine.height": [
+         size: 0.557406;
+      ];
+      T"pelvis.width": [
+         size: 0.288045;
+      ];
+      T"lt.arm.upper.length": [
+         size: 0.289602;
+      ];
+      T"rt.arm.upper.length": [
+         size: 0.289602;
+      ];
+      T"lt.arm.fore.length": [
+         size: 0.227322;
+      ];
+      T"rt.arm.fore.length": [
+         size: 0.227322;
+      ];
+      T"lt.arm.hand.length": [
+         size: 0.147915;
+      ];
+      T"rt.arm.hand.length": [
+         size: 0.147915;
+      ];
+      T"lt.leg.thigh.length": [
+         size: 0.381465;
+      ];
+      T"rt.leg.thigh.length": [
+         size: 0.381465;
+      ];
+      T"lt.leg.shank.length": [
+         size: 0.383022;
+      ];
+      T"rt.leg.shank.length": [
+         size: 0.383022;
+      ];
+      T"lt.leg.foot.length": [
+         size: 0.18684;
+      ];
+      T"rt.leg.foot.length": [
+         size: 0.18684;
+      ];
+   ];
+   tags: [ ];
+];

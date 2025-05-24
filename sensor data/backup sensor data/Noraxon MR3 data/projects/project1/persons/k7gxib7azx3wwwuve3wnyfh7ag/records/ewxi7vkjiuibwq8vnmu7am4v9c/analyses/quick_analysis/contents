@@ -1,0 +1,40 @@
+﻿OPENDATA RegData [
+   cursorPos: 35.99;
+   channels: [
+      bitags: [ ];
+   ];
+   periods: [
+      types: [
+         begin: [
+            name: "Begin";
+            color: [
+               r: 0.965;
+               g: 0.925;
+               b: 0.635;
+            ];
+            picture: ();
+         ];
+         end: [
+            name: "End";
+            color: ();
+            picture: ();
+         ];
+      ];
+      positions: [
+         T"0": [
+            type: "begin";
+            pos: 35.99;
+            report: "false";
+         ];
+         T"1": [
+            type: "end";
+            pos: 44.04;
+            report: "false";
+         ];
+      ];
+   ];
+   phases: ();
+   autoPeriods: ();
+   distanceTraveled: ();
+   comments: [ ];
+];

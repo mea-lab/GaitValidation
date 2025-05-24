@@ -1,0 +1,1507 @@
+﻿OPENDATA RegData [
+   cursorPos: 0.0;
+   channels: [
+      bitags: [ ];
+   ];
+   periods: [
+      types: [
+         begin: [
+            name: "Stance";
+            color: [
+               r: 1.0;
+               g: 0.502;
+               b: 0.502;
+            ];
+            picture: ();
+         ];
+         end: [
+            name: "End";
+            color: ();
+            picture: ();
+         ];
+         event: [
+            name: "Swing";
+            color: [
+               r: 1.0;
+               g: 0.898;
+               b: 0.898;
+            ];
+            picture: ();
+         ];
+      ];
+      positions: [
+         T"0": [
+            type: "begin";
+            pos: 9.33833955451299;
+            report: "false";
+         ];
+         T"1": [
+            type: "event";
+            pos: 26.0653653304233;
+            report: "false";
+         ];
+         T"2": [
+            type: "begin";
+            pos: 26.4552959970464;
+            report: "false";
+         ];
+         T"3": [
+            type: "event";
+            pos: 27.03019377476;
+            report: "false";
+         ];
+         T"4": [
+            type: "begin";
+            pos: 27.4301226636043;
+            report: "false";
+         ];
+         T"5": [
+            type: "event";
+            pos: 28.0450133302023;
+            report: "false";
+         ];
+         T"6": [
+            type: "begin";
+            pos: 28.4149475523832;
+            report: "false";
+         ];
+         T"7": [
+            type: "event";
+            pos: 28.9998435523179;
+            report: "false";
+         ];
+         T"8": [
+            type: "begin";
+            pos: 29.3997724411621;
+            report: "false";
+         ];
+         T"9": [
+            type: "event";
+            pos: 30.0196622188707;
+            report: "false";
+         ];
+         T"10": [
+            type: "begin";
+            pos: 30.4095928854938;
+            report: "false";
+         ];
+         T"11": [
+            type: "event";
+            pos: 30.9994879965391;
+            report: "false";
+         ];
+         T"12": [
+            type: "begin";
+            pos: 31.3944177742728;
+            report: "false";
+         ];
+         T"13": [
+            type: "event";
+            pos: 32.0642986630869;
+            report: "false";
+         ];
+         T"14": [
+            type: "begin";
+            pos: 32.4692266630417;
+            report: "false";
+         ];
+         T"15": [
+            type: "event";
+            pos: 34.0439466628659;
+            report: "false";
+         ];
+         T"16": [
+            type: "begin";
+            pos: 34.3238968850568;
+            report: "false";
+         ];
+         T"17": [
+            type: "event";
+            pos: 35.2587306627302;
+            report: "false";
+         ];
+         T"18": [
+            type: "begin";
+            pos: 35.6536604404639;
+            report: "false";
+         ];
+         T"19": [
+            type: "event";
+            pos: 36.3285404403886;
+            report: "false";
+         ];
+         T"20": [
+            type: "begin";
+            pos: 36.6984746625695;
+            report: "false";
+         ];
+         T"21": [
+            type: "event";
+            pos: 37.2833706625042;
+            report: "false";
+         ];
+         T"22": [
+            type: "begin";
+            pos: 37.6783004402379;
+            report: "false";
+         ];
+         T"23": [
+            type: "event";
+            pos: 38.2731946623937;
+            report: "false";
+         ];
+         T"24": [
+            type: "begin";
+            pos: 38.6781226623485;
+            report: "false";
+         ];
+         T"25": [
+            type: "event";
+            pos: 39.2830151067254;
+            report: "false";
+         ];
+         T"26": [
+            type: "begin";
+            pos: 39.6929422177907;
+            report: "false";
+         ];
+         T"27": [
+            type: "event";
+            pos: 40.2978346621677;
+            report: "false";
+         ];
+         T"28": [
+            type: "begin";
+            pos: 40.6977635510119;
+            report: "false";
+         ];
+         T"29": [
+            type: "event";
+            pos: 41.367644439826;
+            report: "false";
+         ];
+         T"30": [
+            type: "begin";
+            pos: 41.8125653286652;
+            report: "false";
+         ];
+         T"31": [
+            type: "event";
+            pos: 44.8770204394342;
+            report: "false";
+         ];
+         T"32": [
+            type: "begin";
+            pos: 45.2769493282784;
+            report: "false";
+         ];
+         T"33": [
+            type: "event";
+            pos: 45.851847105992;
+            report: "false";
+         ];
+         T"34": [
+            type: "begin";
+            pos: 46.2367786615046;
+            report: "false";
+         ];
+         T"35": [
+            type: "event";
+            pos: 46.8566684392132;
+            report: "false";
+         ];
+         T"36": [
+            type: "begin";
+            pos: 47.2465991058363;
+            report: "false";
+         ];
+         T"37": [
+            type: "event";
+            pos: 47.831495105771;
+            report: "false";
+         ];
+         T"38": [
+            type: "begin";
+            pos: 48.2364231057258;
+            report: "false";
+         ];
+         T"39": [
+            type: "event";
+            pos: 48.8263182167711;
+            report: "false";
+         ];
+         T"40": [
+            type: "begin";
+            pos: 49.2462435500575;
+            report: "false";
+         ];
+         T"41": [
+            type: "event";
+            pos: 49.8511359944344;
+            report: "false";
+         ];
+         T"42": [
+            type: "begin";
+            pos: 50.2660622166103;
+            report: "false";
+         ];
+         T"43": [
+            type: "event";
+            pos: 50.9909333276405;
+            report: "false";
+         ];
+         T"44": [
+            type: "begin";
+            pos: 51.4158577720375;
+            report: "false";
+         ];
+         T"45": [
+            type: "event";
+            pos: 53.4504959940326;
+            report: "false";
+         ];
+         T"46": [
+            type: "begin";
+            pos: 53.6254648829019;
+            report: "false";
+         ];
+         T"47": [
+            type: "event";
+            pos: 54.3303395494899;
+            report: "false";
+         ];
+         T"48": [
+            type: "begin";
+            pos: 54.7452657716658;
+            report: "false";
+         ];
+         T"49": [
+            type: "event";
+            pos: 55.3251626604899;
+            report: "false";
+         ];
+         T"50": [
+            type: "begin";
+            pos: 55.7200924382236;
+            report: "false";
+         ];
+         T"51": [
+            type: "event";
+            pos: 56.31998577149;
+            report: "false";
+         ];
+         T"52": [
+            type: "begin";
+            pos: 56.7299128825553;
+            report: "false";
+         ];
+         T"53": [
+            type: "event";
+            pos: 57.3098097713795;
+            report: "false";
+         ];
+         T"54": [
+            type: "begin";
+            pos: 57.7247359935554;
+            report: "false";
+         ];
+         T"55": [
+            type: "event";
+            pos: 58.3146311046006;
+            report: "false";
+         ];
+         T"56": [
+            type: "begin";
+            pos: 58.7295573267765;
+            report: "false";
+         ];
+         T"57": [
+            type: "event";
+            pos: 59.339448882264;
+            report: "false";
+         ];
+         T"58": [
+            type: "begin";
+            pos: 59.7743715488821;
+            report: "false";
+         ];
+         T"59": [
+            type: "event";
+            pos: 60.5542328821284;
+            report: "false";
+         ];
+         T"60": [
+            type: "begin";
+            pos: 60.9491626598621;
+            report: "false";
+         ];
+         T"61": [
+            type: "event";
+            pos: 62.548878215239;
+            report: "false";
+         ];
+         T"62": [
+            type: "begin";
+            pos: 62.8638222152038;
+            report: "false";
+         ];
+         T"63": [
+            type: "event";
+            pos: 63.5936924373446;
+            report: "false";
+         ];
+         T"64": [
+            type: "begin";
+            pos: 64.0036195484099;
+            report: "false";
+         ];
+         T"65": [
+            type: "event";
+            pos: 64.6035128816763;
+            report: "false";
+         ];
+         T"66": [
+            type: "begin";
+            pos: 65.0334364371839;
+            report: "false";
+         ];
+         T"67": [
+            type: "event";
+            pos: 65.6283306593397;
+            report: "false";
+         ];
+         T"68": [
+            type: "begin";
+            pos: 66.0432568815155;
+            report: "false";
+         ];
+         T"69": [
+            type: "event";
+            pos: 66.6431502147819;
+            report: "false";
+         ];
+         T"70": [
+            type: "begin";
+            pos: 67.0430791036262;
+            report: "false";
+         ];
+         T"71": [
+            type: "event";
+            pos: 67.6429724368925;
+            report: "false";
+         ];
+         T"72": [
+            type: "begin";
+            pos: 68.0578986590684;
+            report: "false";
+         ];
+         T"73": [
+            type: "event";
+            pos: 68.6927857701086;
+            report: "false";
+         ];
+         T"74": [
+            type: "begin";
+            pos: 69.102712881174;
+            report: "false";
+         ];
+         T"75": [
+            type: "event";
+            pos: 69.7425991033248;
+            report: "false";
+         ];
+         T"76": [
+            type: "begin";
+            pos: 70.1325297699479;
+            report: "false";
+         ];
+         T"77": [
+            type: "event";
+            pos: 72.0121955475158;
+            report: "false";
+         ];
+         T"78": [
+            type: "begin";
+            pos: 72.2321564363802;
+            report: "false";
+         ];
+         T"79": [
+            type: "event";
+            pos: 72.9570275474103;
+            report: "false";
+         ];
+         T"80": [
+            type: "begin";
+            pos: 73.3769528806968;
+            report: "false";
+         ];
+         T"81": [
+            type: "event";
+            pos: 73.9718471028526;
+            report: "false";
+         ];
+         T"82": [
+            type: "begin";
+            pos: 74.3717759916968;
+            report: "false";
+         ];
+         T"83": [
+            type: "event";
+            pos: 74.9716693249632;
+            report: "false";
+         ];
+         T"84": [
+            type: "begin";
+            pos: 75.3815964360285;
+            report: "false";
+         ];
+         T"85": [
+            type: "event";
+            pos: 76.0164835470688;
+            report: "false";
+         ];
+         T"86": [
+            type: "begin";
+            pos: 76.4264106581341;
+            report: "false";
+         ];
+         T"87": [
+            type: "event";
+            pos: 77.031303102511;
+            report: "false";
+         ];
+         T"88": [
+            type: "begin";
+            pos: 77.4312319913553;
+            report: "false";
+         ];
+         T"89": [
+            type: "event";
+            pos: 78.0511217690638;
+            report: "false";
+         ];
+         T"90": [
+            type: "begin";
+            pos: 78.4760462134608;
+            report: "false";
+         ];
+         T"91": [
+            type: "event";
+            pos: 79.1809208800488;
+            report: "false";
+         ];
+         T"92": [
+            type: "begin";
+            pos: 79.5958471022247;
+            report: "false";
+         ];
+         T"93": [
+            type: "event";
+            pos: 81.3955271020238;
+            report: "false";
+         ];
+         T"94": [
+            type: "begin";
+            pos: 81.7154702130992;
+            report: "false";
+         ];
+         T"95": [
+            type: "event";
+            pos: 82.4453404352399;
+            report: "false";
+         ];
+         T"96": [
+            type: "begin";
+            pos: 82.8502684351947;
+            report: "false";
+         ];
+         T"97": [
+            type: "event";
+            pos: 83.4351644351294;
+            report: "false";
+         ];
+         T"98": [
+            type: "begin";
+            pos: 83.8600888795264;
+            report: "false";
+         ];
+         T"99": [
+            type: "event";
+            pos: 84.4549831016822;
+            report: "false";
+         ];
+         T"100": [
+            type: "begin";
+            pos: 84.859911101637;
+            report: "false";
+         ];
+         T"101": [
+            type: "event";
+            pos: 85.4448071015717;
+            report: "false";
+         ];
+         T"102": [
+            type: "begin";
+            pos: 85.8497351015265;
+            report: "false";
+         ];
+         T"103": [
+            type: "event";
+            pos: 86.4296319903506;
+            report: "false";
+         ];
+         T"104": [
+            type: "begin";
+            pos: 86.8245617680843;
+            report: "false";
+         ];
+         T"105": [
+            type: "event";
+            pos: 87.4694471013457;
+            report: "false";
+         ];
+         T"106": [
+            type: "begin";
+            pos: 87.9193671012954;
+            report: "false";
+         ];
+         T"107": [
+            type: "event";
+            pos: 88.6442382123256;
+            report: "false";
+         ];
+         T"108": [
+            type: "begin";
+            pos: 88.9891768789538;
+            report: "false";
+         ];
+         T"109": [
+            type: "event";
+            pos: 90.5139057676724;
+            report: "false";
+         ];
+         T"110": [
+            type: "begin";
+            pos: 90.9588266565116;
+            report: "false";
+         ];
+         T"111": [
+            type: "event";
+            pos: 91.7386879897579;
+            report: "false";
+         ];
+         T"112": [
+            type: "begin";
+            pos: 92.1286186563811;
+            report: "false";
+         ];
+         T"113": [
+            type: "event";
+            pos: 92.7385102118685;
+            report: "false";
+         ];
+         T"114": [
+            type: "begin";
+            pos: 93.1284408784916;
+            report: "false";
+         ];
+         T"115": [
+            type: "event";
+            pos: 93.7433315450897;
+            report: "false";
+         ];
+         T"116": [
+            type: "begin";
+            pos: 94.1682559894867;
+            report: "false";
+         ];
+         T"117": [
+            type: "event";
+            pos: 94.7481528783108;
+            report: "false";
+         ];
+         T"118": [
+            type: "begin";
+            pos: 95.1680782115973;
+            report: "false";
+         ];
+         T"119": [
+            type: "event";
+            pos: 95.7679715448636;
+            report: "false";
+         ];
+         T"120": [
+            type: "begin";
+            pos: 96.1878968781501;
+            report: "false";
+         ];
+         T"121": [
+            type: "event";
+            pos: 96.837781322522;
+            report: "false";
+         ];
+         T"122": [
+            type: "begin";
+            pos: 97.2527075446979;
+            report: "false";
+         ];
+         T"123": [
+            type: "event";
+            pos: 97.9525831001753;
+            report: "false";
+         ];
+         T"124": [
+            type: "begin";
+            pos: 98.4524942112306;
+            report: "false";
+         ];
+         T"125": [
+            type: "event";
+            pos: 101.022037322055;
+            report: "false";
+         ];
+         T"126": [
+            type: "begin";
+            pos: 101.451960877562;
+            report: "false";
+         ];
+         T"127": [
+            type: "event";
+            pos: 102.226823099698;
+            report: "false";
+         ];
+         T"128": [
+            type: "begin";
+            pos: 102.626751988542;
+            report: "false";
+         ];
+         T"129": [
+            type: "event";
+            pos: 103.446606210673;
+            report: "false";
+         ];
+         T"130": [
+            type: "end";
+            pos: 103.801543099522;
+            report: "false";
+         ];
+      ];
+   ];
+   phases: ();
+   autoPeriods: RiseFallPeriods [
+      channel: [
+         bitags: [
+            n0: [
+               name: [
+                  raw: "number";
+                  friendly: "Number";
+               ];
+               values: [
+                  T"0": [
+                     raw: "0";
+                     friendly: "0";
+                  ];
+               ];
+            ];
+         ];
+      ];
+      method: "riseFallRise";
+      riseLevel: 0.01;
+      fallLevel: 0.01;
+      minDuration: 0.1;
+      relative: "true";
+      oncePerActivity: "false";
+   ];
+   periods2: [
+      types: [
+         begin: [
+            name: "Stance";
+            color: [
+               r: 0.4;
+               g: 1.0;
+               b: 0.4;
+            ];
+            picture: ();
+         ];
+         end: [
+            name: "End";
+            color: ();
+            picture: ();
+         ];
+         event: [
+            name: "Swing";
+            color: [
+               r: 0.839;
+               g: 1.0;
+               b: 0.839;
+            ];
+            picture: ();
+         ];
+      ];
+      positions: [
+         T"0": [
+            type: "begin";
+            pos: 3.61435733292981;
+            report: "false";
+         ];
+         T"1": [
+            type: "event";
+            pos: 8.59347199904059;
+            report: "false";
+         ];
+         T"2": [
+            type: "begin";
+            pos: 8.84842666567879;
+            report: "false";
+         ];
+         T"3": [
+            type: "event";
+            pos: 9.6982755544728;
+            report: "false";
+         ];
+         T"4": [
+            type: "begin";
+            pos: 9.83325155445773;
+            report: "false";
+         ];
+         T"5": [
+            type: "event";
+            pos: 10.5431253321563;
+            report: "false";
+         ];
+         T"6": [
+            type: "begin";
+            pos: 10.6980977765834;
+            report: "false";
+         ];
+         T"7": [
+            type: "event";
+            pos: 15.9221688871113;
+            report: "false";
+         ];
+         T"8": [
+            type: "begin";
+            pos: 16.1871217759706;
+            report: "false";
+         ];
+         T"9": [
+            type: "event";
+            pos: 19.9314559977748;
+            report: "false";
+         ];
+         T"10": [
+            type: "begin";
+            pos: 20.2264035532974;
+            report: "false";
+         ];
+         T"11": [
+            type: "event";
+            pos: 21.8661119975588;
+            report: "false";
+         ];
+         T"12": [
+            type: "begin";
+            pos: 22.1010702197548;
+            report: "false";
+         ];
+         T"13": [
+            type: "event";
+            pos: 24.1707022195237;
+            report: "false";
+         ];
+         T"14": [
+            type: "begin";
+            pos: 24.5556337750363;
+            report: "false";
+         ];
+         T"15": [
+            type: "event";
+            pos: 25.475470219378;
+            report: "false";
+         ];
+         T"16": [
+            type: "begin";
+            pos: 25.8803982193328;
+            report: "false";
+         ];
+         T"17": [
+            type: "event";
+            pos: 26.5752746636997;
+            report: "false";
+         ];
+         T"18": [
+            type: "begin";
+            pos: 26.9452088858806;
+            report: "false";
+         ];
+         T"19": [
+            type: "event";
+            pos: 27.5201066635942;
+            report: "false";
+         ];
+         T"20": [
+            type: "begin";
+            pos: 27.925034663549;
+            report: "false";
+         ];
+         T"21": [
+            type: "event";
+            pos: 28.5099306634837;
+            report: "false";
+         ];
+         T"22": [
+            type: "begin";
+            pos: 28.9148586634385;
+            report: "false";
+         ];
+         T"23": [
+            type: "event";
+            pos: 29.4897564411521;
+            report: "false";
+         ];
+         T"24": [
+            type: "begin";
+            pos: 29.8996835522174;
+            report: "false";
+         ];
+         T"25": [
+            type: "event";
+            pos: 30.5345706632577;
+            report: "false";
+         ];
+         T"26": [
+            type: "begin";
+            pos: 30.899505774328;
+            report: "false";
+         ];
+         T"27": [
+            type: "event";
+            pos: 31.5193955520366;
+            report: "false";
+         ];
+         T"28": [
+            type: "begin";
+            pos: 31.9293226631019;
+            report: "false";
+         ];
+         T"29": [
+            type: "event";
+            pos: 32.6241991074688;
+            report: "false";
+         ];
+         T"30": [
+            type: "begin";
+            pos: 33.1391075518558;
+            report: "false";
+         ];
+         T"31": [
+            type: "event";
+            pos: 34.6288426628006;
+            report: "false";
+         ];
+         T"32": [
+            type: "begin";
+            pos: 35.0837617738609;
+            report: "false";
+         ];
+         T"33": [
+            type: "event";
+            pos: 35.7586417737855;
+            report: "false";
+         ];
+         T"34": [
+            type: "begin";
+            pos: 36.1885653292931;
+            report: "false";
+         ];
+         T"35": [
+            type: "event";
+            pos: 36.7784604403383;
+            report: "false";
+         ];
+         T"36": [
+            type: "begin";
+            pos: 37.1933866625142;
+            report: "false";
+         ];
+         T"37": [
+            type: "event";
+            pos: 37.7582862180067;
+            report: "false";
+         ];
+         T"38": [
+            type: "begin";
+            pos: 38.1832106624037;
+            report: "false";
+         ];
+         T"39": [
+            type: "event";
+            pos: 38.7631075512279;
+            report: "false";
+         ];
+         T"40": [
+            type: "begin";
+            pos: 39.1680355511827;
+            report: "false";
+         ];
+         T"41": [
+            type: "event";
+            pos: 39.7779271066701;
+            report: "false";
+         ];
+         T"42": [
+            type: "begin";
+            pos: 40.1778559955144;
+            report: "false";
+         ];
+         T"43": [
+            type: "event";
+            pos: 40.8127431065546;
+            report: "false";
+         ];
+         T"44": [
+            type: "begin";
+            pos: 41.2176711065094;
+            report: "false";
+         ];
+         T"45": [
+            type: "event";
+            pos: 41.9625386619818;
+            report: "false";
+         ];
+         T"46": [
+            type: "begin";
+            pos: 42.6124231063537;
+            report: "false";
+         ];
+         T"47": [
+            type: "event";
+            pos: 44.3921066617105;
+            report: "false";
+         ];
+         T"48": [
+            type: "begin";
+            pos: 44.7620408838915;
+            report: "false";
+         ];
+         T"49": [
+            type: "event";
+            pos: 45.3669333282684;
+            report: "false";
+         ];
+         T"50": [
+            type: "begin";
+            pos: 45.7618631060021;
+            report: "false";
+         ];
+         T"51": [
+            type: "event";
+            pos: 46.3467591059368;
+            report: "false";
+         ];
+         T"52": [
+            type: "begin";
+            pos: 46.746687994781;
+            report: "false";
+         ];
+         T"53": [
+            type: "event";
+            pos: 47.3265848836052;
+            report: "false";
+         ];
+         T"54": [
+            type: "begin";
+            pos: 47.7365119946705;
+            report: "false";
+         ];
+         T"55": [
+            type: "event";
+            pos: 48.3514026612685;
+            report: "false";
+         ];
+         T"56": [
+            type: "begin";
+            pos: 48.7363342167811;
+            report: "false";
+         ];
+         T"57": [
+            type: "event";
+            pos: 49.3312284389369;
+            report: "false";
+         ];
+         T"58": [
+            type: "begin";
+            pos: 49.7511537722234;
+            report: "false";
+         ];
+         T"59": [
+            type: "event";
+            pos: 50.381041772153;
+            report: "false";
+         ];
+         T"60": [
+            type: "begin";
+            pos: 50.80596621655;
+            report: "false";
+         ];
+         T"61": [
+            type: "event";
+            pos: 51.600824883128;
+            report: "false";
+         ];
+         T"62": [
+            type: "begin";
+            pos: 52.1007359941833;
+            report: "false";
+         ];
+         T"63": [
+            type: "event";
+            pos: 53.8054328828818;
+            report: "false";
+         ];
+         T"64": [
+            type: "begin";
+            pos: 54.2103608828366;
+            report: "false";
+         ];
+         T"65": [
+            type: "event";
+            pos: 54.8602453272085;
+            report: "false";
+         ];
+         T"66": [
+            type: "begin";
+            pos: 55.2451768827211;
+            report: "false";
+         ];
+         T"67": [
+            type: "event";
+            pos: 55.850069327098;
+            report: "false";
+         ];
+         T"68": [
+            type: "begin";
+            pos: 56.2350008826106;
+            report: "false";
+         ];
+         T"69": [
+            type: "event";
+            pos: 56.7999004381031;
+            report: "false";
+         ];
+         T"70": [
+            type: "begin";
+            pos: 57.2248248825001;
+            report: "false";
+         ];
+         T"71": [
+            type: "event";
+            pos: 57.8447146602086;
+            report: "false";
+         ];
+         T"72": [
+            type: "begin";
+            pos: 58.2196479935001;
+            report: "false";
+         ];
+         T"73": [
+            type: "event";
+            pos: 58.8195413267665;
+            report: "false";
+         ];
+         T"74": [
+            type: "begin";
+            pos: 59.2444657711635;
+            report: "false";
+         ];
+         T"75": [
+            type: "event";
+            pos: 59.8693546599826;
+            report: "false";
+         ];
+         T"76": [
+            type: "begin";
+            pos: 60.3542684377062;
+            report: "false";
+         ];
+         T"77": [
+            type: "event";
+            pos: 61.129130659842;
+            report: "false";
+         ];
+         T"78": [
+            type: "begin";
+            pos: 61.5990471042339;
+            report: "false";
+         ];
+         T"79": [
+            type: "event";
+            pos: 63.0837831040682;
+            report: "false";
+         ];
+         T"80": [
+            type: "begin";
+            pos: 63.488711104023;
+            report: "false";
+         ];
+         T"81": [
+            type: "event";
+            pos: 64.0936035483999;
+            report: "false";
+         ];
+         T"82": [
+            type: "begin";
+            pos: 64.5185279927969;
+            report: "false";
+         ];
+         T"83": [
+            type: "event";
+            pos: 65.1384177705055;
+            report: "false";
+         ];
+         T"84": [
+            type: "begin";
+            pos: 65.5283484371286;
+            report: "false";
+         ];
+         T"85": [
+            type: "event";
+            pos: 66.1332408815055;
+            report: "false";
+         ];
+         T"86": [
+            type: "begin";
+            pos: 66.5431679925708;
+            report: "false";
+         ];
+         T"87": [
+            type: "event";
+            pos: 67.1580586591689;
+            report: "false";
+         ];
+         T"88": [
+            type: "begin";
+            pos: 67.547989325792;
+            report: "false";
+         ];
+         T"89": [
+            type: "event";
+            pos: 68.1578808812795;
+            report: "false";
+         ];
+         T"90": [
+            type: "begin";
+            pos: 68.5728071034554;
+            report: "false";
+         ];
+         T"91": [
+            type: "event";
+            pos: 69.2076942144956;
+            report: "false";
+         ];
+         T"92": [
+            type: "begin";
+            pos: 69.6126222144504;
+            report: "false";
+         ];
+         T"93": [
+            type: "event";
+            pos: 70.2725048810434;
+            report: "false";
+         ];
+         T"94": [
+            type: "begin";
+            pos: 70.7274239921037;
+            report: "false";
+         ];
+         T"95": [
+            type: "event";
+            pos: 72.4071253252495;
+            report: "false";
+         ];
+         T"96": [
+            type: "begin";
+            pos: 72.827050658536;
+            report: "false";
+         ];
+         T"97": [
+            type: "event";
+            pos: 73.4769351029078;
+            report: "false";
+         ];
+         T"98": [
+            type: "begin";
+            pos: 73.8918613250838;
+            report: "false";
+         ];
+         T"99": [
+            type: "event";
+            pos: 74.4967537694607;
+            report: "false";
+         ];
+         T"100": [
+            type: "begin";
+            pos: 74.8816853249732;
+            report: "false";
+         ];
+         T"101": [
+            type: "event";
+            pos: 75.4815786582396;
+            report: "false";
+         ];
+         T"102": [
+            type: "begin";
+            pos: 75.9115022137472;
+            report: "false";
+         ];
+         T"103": [
+            type: "event";
+            pos: 76.5113955470135;
+            report: "false";
+         ];
+         T"104": [
+            type: "begin";
+            pos: 76.9413191025211;
+            report: "false";
+         ];
+         T"105": [
+            type: "event";
+            pos: 77.5262151024558;
+            report: "false";
+         ];
+         T"106": [
+            type: "begin";
+            pos: 77.9611377690739;
+            report: "false";
+         ];
+         T"107": [
+            type: "event";
+            pos: 78.6010239912247;
+            report: "false";
+         ];
+         T"108": [
+            type: "begin";
+            pos: 79.0059519911795;
+            report: "false";
+         ];
+         T"109": [
+            type: "event";
+            pos: 79.7858133244257;
+            report: "false";
+         ];
+         T"110": [
+            type: "begin";
+            pos: 80.2457315465966;
+            report: "false";
+         ];
+         T"111": [
+            type: "event";
+            pos: 81.9004373241896;
+            report: "false";
+         ];
+         T"112": [
+            type: "begin";
+            pos: 82.3353599908077;
+            report: "false";
+         ];
+         T"113": [
+            type: "event";
+            pos: 82.9602488796269;
+            report: "false";
+         ];
+         T"114": [
+            type: "begin";
+            pos: 83.35017954625;
+            report: "false";
+         ];
+         T"115": [
+            type: "event";
+            pos: 83.965070212848;
+            report: "false";
+         ];
+         T"116": [
+            type: "begin";
+            pos: 84.3500017683606;
+            report: "false";
+         ];
+         T"117": [
+            type: "event";
+            pos: 84.9748906571797;
+            report: "false";
+         ];
+         T"118": [
+            type: "begin";
+            pos: 85.3548231015818;
+            report: "false";
+         ];
+         T"119": [
+            type: "event";
+            pos: 85.9597155459587;
+            report: "false";
+         ];
+         T"120": [
+            type: "begin";
+            pos: 86.3296497681396;
+            report: "false";
+         ];
+         T"121": [
+            type: "event";
+            pos: 86.9395413236271;
+            report: "false";
+         ];
+         T"122": [
+            type: "begin";
+            pos: 87.3544675458029;
+            report: "false";
+         ];
+         T"123": [
+            type: "event";
+            pos: 88.0143502123959;
+            report: "false";
+         ];
+         T"124": [
+            type: "begin";
+            pos: 88.4592711012352;
+            report: "false";
+         ];
+         T"125": [
+            type: "event";
+            pos: 89.2191359900392;
+            report: "false";
+         ];
+         T"126": [
+            type: "begin";
+            pos: 89.5540764344463;
+            report: "false";
+         ];
+         T"127": [
+            type: "event";
+            pos: 91.1487928787127;
+            report: "false";
+         ];
+         T"128": [
+            type: "begin";
+            pos: 91.5937137675519;
+            report: "false";
+         ];
+         T"129": [
+            type: "event";
+            pos: 92.2335999897027;
+            report: "false";
+         ];
+         T"130": [
+            type: "begin";
+            pos: 92.6535253229891;
+            report: "false";
+         ];
+         T"131": [
+            type: "event";
+            pos: 93.2284231007027;
+            report: "false";
+         ];
+         T"132": [
+            type: "begin";
+            pos: 93.6633457673208;
+            report: "false";
+         ];
+         T"133": [
+            type: "event";
+            pos: 94.2382435450344;
+            report: "false";
+         ];
+         T"134": [
+            type: "begin";
+            pos: 94.6531697672103;
+            report: "false";
+         ];
+         T"135": [
+            type: "event";
+            pos: 95.2630613226978;
+            report: "false";
+         ];
+         T"136": [
+            type: "begin";
+            pos: 95.6679893226526;
+            report: "false";
+         ];
+         T"137": [
+            type: "event";
+            pos: 96.2928782114717;
+            report: "false";
+         ];
+         T"138": [
+            type: "begin";
+            pos: 96.7128035447581;
+            report: "false";
+         ];
+         T"139": [
+            type: "event";
+            pos: 97.3876835446828;
+            report: "false";
+         ];
+         T"140": [
+            type: "begin";
+            pos: 97.787612433527;
+            report: "false";
+         ];
+         T"141": [
+            type: "event";
+            pos: 98.682453322316;
+            report: "false";
+         ];
+         T"142": [
+            type: "begin";
+            pos: 99.0273919889442;
+            report: "false";
+         ];
+         T"143": [
+            type: "event";
+            pos: 101.646926210874;
+            report: "false";
+         ];
+         T"144": [
+            type: "begin";
+            pos: 102.06185243305;
+            report: "false";
+         ];
+         T"145": [
+            type: "event";
+            pos: 102.791722655191;
+            report: "false";
+         ];
+         T"146": [
+            type: "end";
+            pos: 103.24164265514;
+            report: "false";
+         ];
+      ];
+   ];
+   phases2: ();
+   autoPeriods2: RiseFallPeriods [
+      channel: [
+         bitags: [
+            n0: [
+               name: [
+                  raw: "number";
+                  friendly: "Number";
+               ];
+               values: [
+                  T"0": [
+                     raw: "0";
+                     friendly: "0";
+                  ];
+               ];
+            ];
+         ];
+      ];
+      method: "riseFallRise";
+      riseLevel: 0.01;
+      fallLevel: 0.01;
+      minDuration: 0.1;
+      relative: "true";
+      oncePerActivity: "false";
+   ];
+   distanceTraveled: ();
+   comments: [ ];
+   objects: [ ];
+];

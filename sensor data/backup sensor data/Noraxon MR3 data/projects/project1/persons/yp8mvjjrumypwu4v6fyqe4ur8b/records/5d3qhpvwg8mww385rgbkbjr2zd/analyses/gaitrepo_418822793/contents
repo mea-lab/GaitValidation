@@ -1,0 +1,236 @@
+﻿OPENDATA RegData [
+   cursorPos: 65.25;
+   channels: [
+      bitags: [ ];
+   ];
+   periods: [
+      types: [
+         begin: [
+            name: "Stance";
+            color: [
+               r: 1.0;
+               g: 0.502;
+               b: 0.502;
+            ];
+            picture: ();
+         ];
+         end: [
+            name: "End";
+            color: ();
+            picture: ();
+         ];
+         event: [
+            name: "Swing";
+            color: [
+               r: 1.0;
+               g: 0.898;
+               b: 0.898;
+            ];
+            picture: ();
+         ];
+      ];
+      positions: [
+         T"0": [
+            type: "begin";
+            pos: 66.13;
+            report: "false";
+         ];
+         T"1": [
+            type: "event";
+            pos: 66.85;
+            report: "false";
+         ];
+         T"2": [
+            type: "begin";
+            pos: 67.28;
+            report: "false";
+         ];
+         T"3": [
+            type: "event";
+            pos: 67.995;
+            report: "false";
+         ];
+         T"4": [
+            type: "begin";
+            pos: 68.425;
+            report: "false";
+         ];
+         T"5": [
+            type: "event";
+            pos: 69.145;
+            report: "false";
+         ];
+         T"6": [
+            type: "begin";
+            pos: 69.625;
+            report: "false";
+         ];
+         T"7": [
+            type: "event";
+            pos: 70.375;
+            report: "false";
+         ];
+         T"8": [
+            type: "begin";
+            pos: 70.85;
+            report: "false";
+         ];
+         T"9": [
+            type: "event";
+            pos: 71.61;
+            report: "false";
+         ];
+         T"10": [
+            type: "end";
+            pos: 72.045;
+            report: "false";
+         ];
+      ];
+   ];
+   phases: ();
+   autoPeriods: RiseFallPeriods [
+      channel: [
+         bitags: [
+            n0: [
+               name: [
+                  raw: "number";
+                  friendly: "Number";
+               ];
+               values: [
+                  T"0": [
+                     raw: "1";
+                     friendly: "1";
+                  ];
+               ];
+            ];
+         ];
+      ];
+      method: "riseFallRise";
+      riseLevel: 0.01;
+      fallLevel: 0.01;
+      minDuration: 0.1;
+      relative: "true";
+      oncePerActivity: "false";
+   ];
+   periods2: [
+      types: [
+         begin: [
+            name: "Stance";
+            color: [
+               r: 0.4;
+               g: 1.0;
+               b: 0.4;
+            ];
+            picture: ();
+         ];
+         end: [
+            name: "End";
+            color: ();
+            picture: ();
+         ];
+         event: [
+            name: "Swing";
+            color: [
+               r: 0.839;
+               g: 1.0;
+               b: 0.839;
+            ];
+            picture: ();
+         ];
+      ];
+      positions: [
+         T"0": [
+            type: "begin";
+            pos: 65.55;
+            report: "false";
+         ];
+         T"1": [
+            type: "event";
+            pos: 66.3;
+            report: "false";
+         ];
+         T"2": [
+            type: "begin";
+            pos: 66.745;
+            report: "false";
+         ];
+         T"3": [
+            type: "event";
+            pos: 67.445;
+            report: "false";
+         ];
+         T"4": [
+            type: "begin";
+            pos: 67.865;
+            report: "false";
+         ];
+         T"5": [
+            type: "event";
+            pos: 68.58;
+            report: "false";
+         ];
+         T"6": [
+            type: "begin";
+            pos: 69.035;
+            report: "false";
+         ];
+         T"7": [
+            type: "event";
+            pos: 69.805;
+            report: "false";
+         ];
+         T"8": [
+            type: "begin";
+            pos: 70.255;
+            report: "false";
+         ];
+         T"9": [
+            type: "event";
+            pos: 71.04;
+            report: "false";
+         ];
+         T"10": [
+            type: "begin";
+            pos: 71.48;
+            report: "false";
+         ];
+         T"11": [
+            type: "event";
+            pos: 72.21;
+            report: "false";
+         ];
+         T"12": [
+            type: "end";
+            pos: 72.705;
+            report: "false";
+         ];
+      ];
+   ];
+   phases2: ();
+   autoPeriods2: RiseFallPeriods [
+      channel: [
+         bitags: [
+            n0: [
+               name: [
+                  raw: "number";
+                  friendly: "Number";
+               ];
+               values: [
+                  T"0": [
+                     raw: "1";
+                     friendly: "1";
+                  ];
+               ];
+            ];
+         ];
+      ];
+      method: "riseFallRise";
+      riseLevel: 0.01;
+      fallLevel: 0.01;
+      minDuration: 0.1;
+      relative: "true";
+      oncePerActivity: "false";
+   ];
+   distanceTraveled: ();
+   comments: [ ];
+];

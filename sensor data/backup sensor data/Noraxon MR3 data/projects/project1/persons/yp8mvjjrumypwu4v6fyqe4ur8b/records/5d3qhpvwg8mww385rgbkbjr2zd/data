@@ -1,0 +1,2746 @@
+﻿OPENDATA TimeRecord.Data [
+   timeLine: [
+      units: "s";
+      begin: 0.0;
+      end: 80.72;
+      atomDuration: 0.005;
+      breaks: [
+         types: [
+            Activity: [
+               name: "Activity";
+               color: [
+                  r: 0.863;
+                  g: 0.863;
+                  b: 0.863;
+               ];
+               picture: ();
+            ];
+         ];
+         positions: [
+            T"0": [
+               type: "Activity";
+               pos: 0.0;
+               report: "false";
+            ];
+         ];
+      ];
+      markers: [
+         types: [
+            marker: [
+               name: "Marker";
+               color: [
+                  r: 0.0;
+                  g: 0.0;
+                  b: 0.0;
+               ];
+               picture: ();
+            ];
+            sync: [
+               name: "Sync";
+               color: [
+                  r: 0.0;
+                  g: 1.0;
+                  b: 0.0;
+               ];
+               picture: ();
+            ];
+            video: [
+               name: "Video";
+               color: [
+                  r: 0.502;
+                  g: 0.749;
+                  b: 1.0;
+               ];
+               picture: ();
+            ];
+         ];
+         positions: [
+            T"0": [
+               type: "marker";
+               pos: 13.53;
+               report: "false";
+            ];
+            T"1": [
+               type: "marker";
+               pos: 20.52;
+               report: "false";
+            ];
+            T"2": [
+               type: "marker";
+               pos: 24.515;
+               report: "false";
+            ];
+            T"3": [
+               type: "marker";
+               pos: 31.69;
+               report: "false";
+            ];
+            T"4": [
+               type: "marker";
+               pos: 34.24;
+               report: "false";
+            ];
+            T"5": [
+               type: "marker";
+               pos: 41.21;
+               report: "false";
+            ];
+            T"6": [
+               type: "marker";
+               pos: 44.505;
+               report: "false";
+            ];
+            T"7": [
+               type: "marker";
+               pos: 51.69;
+               report: "false";
+            ];
+            T"8": [
+               type: "marker";
+               pos: 55.18;
+               report: "false";
+            ];
+            T"9": [
+               type: "marker";
+               pos: 62.485;
+               report: "false";
+            ];
+            T"10": [
+               type: "marker";
+               pos: 65.25;
+               report: "false";
+            ];
+            T"11": [
+               type: "marker";
+               pos: 73.045;
+               report: "false";
+            ];
+         ];
+      ];
+   ];
+   channels: [
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.lt.leg.knee.flexion;type.input.analog.angle;": AnalogChannel [
+         name: "Knee Flexion";
+         color: [
+            r: 1.0;
+            g: 0.0;
+            b: 0.251;
+         ];
+         type: "angle";
+         location: "human.lt.leg.knee";
+         side: "left";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Joint Angles";
+         pane_id: "";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analog.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\njoints\nhuman.lt.leg.knee\nflexion\n";
+            view: [
+               begin: -20.0;
+               end: 160.0;
+            ];
+            units: "deg";
+            precision: 0.1;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.rt.leg.knee.flexion;type.input.analog.angle;": AnalogChannel [
+         name: "Knee Flexion";
+         color: [
+            r: 1.0;
+            g: 0.0;
+            b: 0.251;
+         ];
+         type: "angle";
+         location: "human.rt.leg.knee";
+         side: "right";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Joint Angles";
+         pane_id: "";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analog1.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\njoints\nhuman.rt.leg.knee\nflexion\n";
+            view: [
+               begin: -20.0;
+               end: 160.0;
+            ];
+            units: "deg";
+            precision: 0.1;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.lt.leg.knee.rotation;type.input.analog.angle;": AnalogChannel [
+         name: "Knee Rotation Ext";
+         color: [
+            r: 1.0;
+            g: 1.0;
+            b: 0.0;
+         ];
+         type: "angle";
+         location: "human.lt.leg.knee";
+         side: "left";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Joint Angles";
+         pane_id: "";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analog2.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\njoints\nhuman.lt.leg.knee\nrotation\n";
+            view: [
+               begin: -30.0;
+               end: 30.0;
+            ];
+            units: "deg";
+            precision: 0.1;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.rt.leg.knee.rotation;type.input.analog.angle;": AnalogChannel [
+         name: "Knee Rotation Ext";
+         color: [
+            r: 1.0;
+            g: 1.0;
+            b: 0.0;
+         ];
+         type: "angle";
+         location: "human.rt.leg.knee";
+         side: "right";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Joint Angles";
+         pane_id: "";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analog3.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\njoints\nhuman.rt.leg.knee\nrotation\n";
+            view: [
+               begin: -30.0;
+               end: 30.0;
+            ];
+            units: "deg";
+            precision: 0.1;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.lt.leg.knee.abduction;type.input.analog.angle;": AnalogChannel [
+         name: "Knee Abduction";
+         color: [
+            r: 0.0;
+            g: 1.0;
+            b: 0.753;
+         ];
+         type: "angle";
+         location: "human.lt.leg.knee";
+         side: "left";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Joint Angles";
+         pane_id: "";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analog4.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\njoints\nhuman.lt.leg.knee\nabduction\n";
+            view: [
+               begin: -30.0;
+               end: 30.0;
+            ];
+            units: "deg";
+            precision: 0.1;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.rt.leg.knee.abduction;type.input.analog.angle;": AnalogChannel [
+         name: "Knee Abduction";
+         color: [
+            r: 0.0;
+            g: 1.0;
+            b: 0.753;
+         ];
+         type: "angle";
+         location: "human.rt.leg.knee";
+         side: "right";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Joint Angles";
+         pane_id: "";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analog5.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\njoints\nhuman.rt.leg.knee\nabduction\n";
+            view: [
+               begin: -30.0;
+               end: 30.0;
+            ];
+            units: "deg";
+            precision: 0.1;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.lt.leg.ankle.dorsiflexion;type.input.analog.angle;": AnalogChannel [
+         name: "Ankle Dorsiflexion";
+         color: [
+            r: 1.0;
+            g: 0.0;
+            b: 0.251;
+         ];
+         type: "angle";
+         location: "human.lt.leg.ankle";
+         side: "left";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Joint Angles";
+         pane_id: "";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analog6.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\njoints\nhuman.lt.leg.ankle\ndorsiflexion\n";
+            view: [
+               begin: -45.0;
+               end: 45.0;
+            ];
+            units: "deg";
+            precision: 0.1;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.rt.leg.ankle.dorsiflexion;type.input.analog.angle;": AnalogChannel [
+         name: "Ankle Dorsiflexion";
+         color: [
+            r: 1.0;
+            g: 0.0;
+            b: 0.251;
+         ];
+         type: "angle";
+         location: "human.rt.leg.ankle";
+         side: "right";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Joint Angles";
+         pane_id: "";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analog7.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\njoints\nhuman.rt.leg.ankle\ndorsiflexion\n";
+            view: [
+               begin: -45.0;
+               end: 45.0;
+            ];
+            units: "deg";
+            precision: 0.1;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.lt.leg.ankle.inversion;type.input.analog.angle;": AnalogChannel [
+         name: "Ankle Inversion";
+         color: [
+            r: 0.0;
+            g: 1.0;
+            b: 0.753;
+         ];
+         type: "angle";
+         location: "human.lt.leg.ankle";
+         side: "left";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Joint Angles";
+         pane_id: "";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analog8.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\njoints\nhuman.lt.leg.ankle\ninversion\n";
+            view: [
+               begin: -30.0;
+               end: 30.0;
+            ];
+            units: "deg";
+            precision: 0.1;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.rt.leg.ankle.inversion;type.input.analog.angle;": AnalogChannel [
+         name: "Ankle Inversion";
+         color: [
+            r: 0.0;
+            g: 1.0;
+            b: 0.753;
+         ];
+         type: "angle";
+         location: "human.rt.leg.ankle";
+         side: "right";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Joint Angles";
+         pane_id: "";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analog9.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\njoints\nhuman.rt.leg.ankle\ninversion\n";
+            view: [
+               begin: -30.0;
+               end: 30.0;
+            ];
+            units: "deg";
+            precision: 0.1;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.lt.leg.ankle.abduction;type.input.analog.angle;": AnalogChannel [
+         name: "Ankle Abduction";
+         color: [
+            r: 1.0;
+            g: 1.0;
+            b: 0.0;
+         ];
+         type: "angle";
+         location: "human.lt.leg.ankle";
+         side: "left";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Joint Angles";
+         pane_id: "";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo10.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\njoints\nhuman.lt.leg.ankle\nabduction\n";
+            view: [
+               begin: -30.0;
+               end: 30.0;
+            ];
+            units: "deg";
+            precision: 0.1;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.rt.leg.ankle.abduction;type.input.analog.angle;": AnalogChannel [
+         name: "Ankle Abduction";
+         color: [
+            r: 1.0;
+            g: 1.0;
+            b: 0.0;
+         ];
+         type: "angle";
+         location: "human.rt.leg.ankle";
+         side: "right";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Joint Angles";
+         pane_id: "";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo11.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\njoints\nhuman.rt.leg.ankle\nabduction\n";
+            view: [
+               begin: -30.0;
+               end: 30.0;
+            ];
+            units: "deg";
+            precision: 0.1;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.spine.lower.accel.x;type.input.analog.accel;": AnalogChannel [
+         name: "Lower spine Accel Sensor X";
+         color: [
+            r: 1.0;
+            g: 0.0;
+            b: 0.251;
+         ];
+         type: "accel";
+         location: "human.spine.lower";
+         side: "none";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.spine.lower.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo12.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.spine.lower\naccel_sensor\nx\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.spine.lower.accel.y;type.input.analog.accel;": AnalogChannel [
+         name: "Lower spine Accel Sensor Y";
+         color: [
+            r: 1.0;
+            g: 1.0;
+            b: 0.0;
+         ];
+         type: "accel";
+         location: "human.spine.lower";
+         side: "none";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.spine.lower.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo13.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.spine.lower\naccel_sensor\ny\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.spine.lower.accel.z;type.input.analog.accel;": AnalogChannel [
+         name: "Lower spine Accel Sensor Z";
+         color: [
+            r: 0.0;
+            g: 1.0;
+            b: 0.753;
+         ];
+         type: "accel";
+         location: "human.spine.lower";
+         side: "none";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.spine.lower.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo14.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.spine.lower\naccel_sensor\nz\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.lt.leg.thigh.accel.x;type.input.analog.accel;": AnalogChannel [
+         name: "Thigh Accel Sensor X";
+         color: [
+            r: 1.0;
+            g: 0.0;
+            b: 0.251;
+         ];
+         type: "accel";
+         location: "human.lt.leg.thigh";
+         side: "left";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.lt.leg.thigh.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo15.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.lt.leg.thigh\naccel_sensor\nx\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.lt.leg.thigh.accel.y;type.input.analog.accel;": AnalogChannel [
+         name: "Thigh Accel Sensor Y";
+         color: [
+            r: 1.0;
+            g: 1.0;
+            b: 0.0;
+         ];
+         type: "accel";
+         location: "human.lt.leg.thigh";
+         side: "left";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.lt.leg.thigh.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo16.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.lt.leg.thigh\naccel_sensor\ny\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.lt.leg.thigh.accel.z;type.input.analog.accel;": AnalogChannel [
+         name: "Thigh Accel Sensor Z";
+         color: [
+            r: 0.0;
+            g: 1.0;
+            b: 0.753;
+         ];
+         type: "accel";
+         location: "human.lt.leg.thigh";
+         side: "left";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.lt.leg.thigh.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo17.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.lt.leg.thigh\naccel_sensor\nz\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.lt.leg.shank.accel.x;type.input.analog.accel;": AnalogChannel [
+         name: "Shank Accel Sensor X";
+         color: [
+            r: 1.0;
+            g: 0.0;
+            b: 0.251;
+         ];
+         type: "accel";
+         location: "human.lt.leg.shank";
+         side: "left";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.lt.leg.shank.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo18.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.lt.leg.shank\naccel_sensor\nx\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.lt.leg.shank.accel.y;type.input.analog.accel;": AnalogChannel [
+         name: "Shank Accel Sensor Y";
+         color: [
+            r: 1.0;
+            g: 1.0;
+            b: 0.0;
+         ];
+         type: "accel";
+         location: "human.lt.leg.shank";
+         side: "left";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.lt.leg.shank.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo19.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.lt.leg.shank\naccel_sensor\ny\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.lt.leg.shank.accel.z;type.input.analog.accel;": AnalogChannel [
+         name: "Shank Accel Sensor Z";
+         color: [
+            r: 0.0;
+            g: 1.0;
+            b: 0.753;
+         ];
+         type: "accel";
+         location: "human.lt.leg.shank";
+         side: "left";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.lt.leg.shank.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo20.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.lt.leg.shank\naccel_sensor\nz\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.lt.leg.foot.accel.x;type.input.analog.accel;": AnalogChannel [
+         name: "Foot Accel Sensor X";
+         color: [
+            r: 1.0;
+            g: 0.0;
+            b: 0.251;
+         ];
+         type: "accel";
+         location: "human.lt.leg.foot";
+         side: "left";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.lt.leg.foot.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo21.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.lt.leg.foot\naccel_sensor\nx\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.lt.leg.foot.accel.y;type.input.analog.accel;": AnalogChannel [
+         name: "Foot Accel Sensor Y";
+         color: [
+            r: 1.0;
+            g: 1.0;
+            b: 0.0;
+         ];
+         type: "accel";
+         location: "human.lt.leg.foot";
+         side: "left";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.lt.leg.foot.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo22.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.lt.leg.foot\naccel_sensor\ny\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.lt.leg.foot.accel.z;type.input.analog.accel;": AnalogChannel [
+         name: "Foot Accel Sensor Z";
+         color: [
+            r: 0.0;
+            g: 1.0;
+            b: 0.753;
+         ];
+         type: "accel";
+         location: "human.lt.leg.foot";
+         side: "left";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.lt.leg.foot.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo23.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.lt.leg.foot\naccel_sensor\nz\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.rt.leg.thigh.accel.x;type.input.analog.accel;": AnalogChannel [
+         name: "Thigh Accel Sensor X";
+         color: [
+            r: 1.0;
+            g: 0.0;
+            b: 0.251;
+         ];
+         type: "accel";
+         location: "human.rt.leg.thigh";
+         side: "right";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.rt.leg.thigh.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo24.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.rt.leg.thigh\naccel_sensor\nx\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.rt.leg.thigh.accel.y;type.input.analog.accel;": AnalogChannel [
+         name: "Thigh Accel Sensor Y";
+         color: [
+            r: 1.0;
+            g: 1.0;
+            b: 0.0;
+         ];
+         type: "accel";
+         location: "human.rt.leg.thigh";
+         side: "right";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.rt.leg.thigh.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo25.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.rt.leg.thigh\naccel_sensor\ny\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.rt.leg.thigh.accel.z;type.input.analog.accel;": AnalogChannel [
+         name: "Thigh Accel Sensor Z";
+         color: [
+            r: 0.0;
+            g: 1.0;
+            b: 0.753;
+         ];
+         type: "accel";
+         location: "human.rt.leg.thigh";
+         side: "right";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.rt.leg.thigh.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo26.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.rt.leg.thigh\naccel_sensor\nz\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.rt.leg.shank.accel.x;type.input.analog.accel;": AnalogChannel [
+         name: "Shank Accel Sensor X";
+         color: [
+            r: 1.0;
+            g: 0.0;
+            b: 0.251;
+         ];
+         type: "accel";
+         location: "human.rt.leg.shank";
+         side: "right";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.rt.leg.shank.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo27.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.rt.leg.shank\naccel_sensor\nx\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.rt.leg.shank.accel.y;type.input.analog.accel;": AnalogChannel [
+         name: "Shank Accel Sensor Y";
+         color: [
+            r: 1.0;
+            g: 1.0;
+            b: 0.0;
+         ];
+         type: "accel";
+         location: "human.rt.leg.shank";
+         side: "right";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.rt.leg.shank.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo28.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.rt.leg.shank\naccel_sensor\ny\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.rt.leg.shank.accel.z;type.input.analog.accel;": AnalogChannel [
+         name: "Shank Accel Sensor Z";
+         color: [
+            r: 0.0;
+            g: 1.0;
+            b: 0.753;
+         ];
+         type: "accel";
+         location: "human.rt.leg.shank";
+         side: "right";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.rt.leg.shank.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo29.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.rt.leg.shank\naccel_sensor\nz\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.rt.leg.foot.accel.x;type.input.analog.accel;": AnalogChannel [
+         name: "Foot Accel Sensor X";
+         color: [
+            r: 1.0;
+            g: 0.0;
+            b: 0.251;
+         ];
+         type: "accel";
+         location: "human.rt.leg.foot";
+         side: "right";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.rt.leg.foot.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo30.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.rt.leg.foot\naccel_sensor\nx\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.rt.leg.foot.accel.y;type.input.analog.accel;": AnalogChannel [
+         name: "Foot Accel Sensor Y";
+         color: [
+            r: 1.0;
+            g: 1.0;
+            b: 0.0;
+         ];
+         type: "accel";
+         location: "human.rt.leg.foot";
+         side: "right";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.rt.leg.foot.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo31.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.rt.leg.foot\naccel_sensor\ny\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};line.human.rt.leg.foot.accel.z;type.input.analog.accel;": AnalogChannel [
+         name: "Foot Accel Sensor Z";
+         color: [
+            r: 0.0;
+            g: 1.0;
+            b: 0.753;
+         ];
+         type: "accel";
+         location: "human.rt.leg.foot";
+         side: "right";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Acceleration";
+         pane_id: "device.noraxon.ultium.motion.\\\\?\\usb#vid_16d0&pid_069e#88024009#{a5dcbf10-6530-11d2-901f-00c04fb951ed};human.rt.leg.foot.accel";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo32.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.rt.leg.foot\naccel_sensor\nz\n";
+            view: [
+               begin: -2000.0;
+               end: 2000.0;
+            ];
+            units: "mG";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"clip.Noraxon MyoMotion\nsegments\nhuman.lt.leg.foot\ncontact": AnalogChannel [
+         name: "Contact";
+         color: [
+            r: 0.855;
+            g: 0.0;
+            b: 0.0;
+         ];
+         type: "switch";
+         location: "";
+         side: "left";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Contact";
+         pane_id: "";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo33.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.lt.leg.foot\ncontact";
+            view: [
+               begin: 0.0;
+               end: 1100.0;
+            ];
+            units: "";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+      T"clip.Noraxon MyoMotion\nsegments\nhuman.rt.leg.foot\ncontact": AnalogChannel [
+         name: "Contact";
+         color: [
+            r: 0.0;
+            g: 0.596;
+            b: 0.0;
+         ];
+         type: "switch";
+         location: "";
+         side: "right";
+         norm: ();
+         normInterval: [
+            begin: ();
+            end: ();
+         ];
+         card_id: "Contact";
+         pane_id: "";
+         source: "original";
+         raw: [
+            archive: Float64AnalogArchive [
+               data: PxStream ".analo34.dat";
+            ];
+            clipIdString: "Noraxon MyoMotion\nsegments\nhuman.rt.leg.foot\ncontact";
+            view: [
+               begin: 0.0;
+               end: 1100.0;
+            ];
+            units: "";
+            precision: 1.0;
+            thresholds: [
+               types: [ ];
+               positions: [ ];
+            ];
+         ];
+      ];
+   ];
+   videos: [ ];
+   movements: [
+      Activity: TimeRecord.Movement [
+         name: "Activity";
+         begin_time: 0.0;
+         end_time: 80.72;
+         type: "Activity";
+         clips: [
+            markers: @main.timeLine.markers;
+            T"Noraxon MyoMotion": Skeleton.Clip [
+               version: 199176;
+               orientation: [
+                  x: 0.456081537082123;
+                  y: -0.540360649504392;
+                  z: -0.540360649504392;
+               ];
+               segments: [
+                  T"human.spine.lower": Skeleton.Clip.Segment [
+                     signal: Motion_signal_real64 [
+                        data: PxStream "motion.dat";
+                        name: "Lower spine";
+                        location: "human.spine.lower";
+                        side: ();
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: 0.785234433308252;
+                           y: -0.0751618252225236;
+                           z: 0.614580167003296;
+                        ];
+                        recovery_id: "";
+                     ];
+                     sensor_corrected: Motion_signal_real64 [
+                        data: PxStream "motion56.dat";
+                        name: "Lower spine";
+                        location: "human.spine.lower";
+                        side: ();
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: 0.785234433308252;
+                           y: -0.0751618252225236;
+                           z: 0.614580167003296;
+                        ];
+                        recovery_id: "";
+                     ];
+                     calibration: [
+                        x: 0.456081537082123;
+                        y: -0.540360649504392;
+                        z: -0.540360649504392;
+                     ];
+                     sensor_correction: [
+                        x: 0.0;
+                        y: 0.0;
+                        z: 0.0;
+                     ];
+                     magn_drift_correction: ();
+                     accel: Motion_signal_real64 [
+                        data: PxStream "motion57.dat";
+                        name: "Lower spine Acceleration (sensor)";
+                        location: "human.spine.lower";
+                        side: ();
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "mG";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: 967.73188947195;
+                           y: -80.4963691766004;
+                           z: -236.673583467323;
+                        ];
+                        recovery_id: "";
+                     ];
+                     magn: Motion_signal_real64 [
+                        data: PxStream "motion58.dat";
+                        name: "Lower spine";
+                        location: "human.spine.lower";
+                        side: ();
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "mGauss";
+                        frequency: 50.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     gyro: Motion_signal_real64 [
+                        data: PxStream "motion59.dat";
+                        name: "Lower spine";
+                        location: "human.spine.lower";
+                        side: ();
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "deg/s";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     gyronull: Motion_signal_real64 [
+                        data: PxStream "motion60.dat";
+                        name: "Lower spine";
+                        location: "human.spine.lower";
+                        side: ();
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "rad/s";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     attitude: Motion_signal_real64 [
+                        data: PxStream "motion61.dat";
+                        name: "Lower spine";
+                        location: "human.spine.lower";
+                        side: ();
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     state: Motion_signal_real64 [
+                        data: PxStream "motion62.dat";
+                        name: "Lower spine";
+                        location: "human.spine.lower";
+                        side: ();
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     position: ();
+                     position_planar: ();
+                     base_sensor: "";
+                     course_invert: "no";
+                     pitch_invert: "no";
+                     roll_invert: "no";
+                     magn_size_calibration: 0.89031887510734;
+                     magn_dip_calibration: -47.218360579086;
+                  ];
+                  T"human.lt.leg.thigh": Skeleton.Clip.Segment [
+                     signal: Motion_signal_real64 [
+                        data: PxStream "motion63.dat";
+                        name: "Thigh";
+                        location: "human.lt.leg.thigh";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: -0.650373893133908;
+                           y: -0.120198762076719;
+                           z: -0.746996953316716;
+                        ];
+                        recovery_id: "";
+                     ];
+                     sensor_corrected: Motion_signal_real64 [
+                        data: PxStream "motion64.dat";
+                        name: "Thigh";
+                        location: "human.lt.leg.thigh";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: -0.650373893133908;
+                           y: -0.120198762076719;
+                           z: -0.746996953316716;
+                        ];
+                        recovery_id: "";
+                     ];
+                     calibration: [
+                        x: 0.47554144559503;
+                        y: -0.563416546199103;
+                        z: -0.516276145618496;
+                     ];
+                     sensor_correction: [
+                        x: 0.0;
+                        y: 0.0;
+                        z: 0.0;
+                     ];
+                     magn_drift_correction: ();
+                     accel: Motion_signal_real64 [
+                        data: PxStream "motion65.dat";
+                        name: "Thigh Acceleration (sensor)";
+                        location: "human.lt.leg.thigh";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "mG";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: 993.949878629336;
+                           y: 58.7664210598573;
+                           z: 42.2143951889977;
+                        ];
+                        recovery_id: "";
+                     ];
+                     magn: Motion_signal_real64 [
+                        data: PxStream "motion66.dat";
+                        name: "Thigh";
+                        location: "human.lt.leg.thigh";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "mGauss";
+                        frequency: 50.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     gyro: Motion_signal_real64 [
+                        data: PxStream "motion67.dat";
+                        name: "Thigh";
+                        location: "human.lt.leg.thigh";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "deg/s";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     gyronull: Motion_signal_real64 [
+                        data: PxStream "motion68.dat";
+                        name: "Thigh";
+                        location: "human.lt.leg.thigh";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "rad/s";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     attitude: Motion_signal_real64 [
+                        data: PxStream "motion69.dat";
+                        name: "Thigh";
+                        location: "human.lt.leg.thigh";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     state: Motion_signal_real64 [
+                        data: PxStream "motion70.dat";
+                        name: "Thigh";
+                        location: "human.lt.leg.thigh";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     position: ();
+                     position_planar: ();
+                     base_sensor: "";
+                     course_invert: "no";
+                     pitch_invert: "no";
+                     roll_invert: "no";
+                     magn_size_calibration: 0.972418542468004;
+                     magn_dip_calibration: -47.0202862992878;
+                  ];
+                  T"human.lt.leg.shank": Skeleton.Clip.Segment [
+                     signal: Motion_signal_real64 [
+                        data: PxStream "motion16.dat";
+                        name: "Shank";
+                        location: "human.lt.leg.shank";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: 0.589386408344204;
+                           y: -0.113984191347393;
+                           z: 0.782624641559248;
+                        ];
+                        recovery_id: "";
+                     ];
+                     sensor_corrected: Motion_signal_real64 [
+                        data: PxStream "motion71.dat";
+                        name: "Shank";
+                        location: "human.lt.leg.shank";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: 0.589386408344204;
+                           y: -0.113984191347393;
+                           z: 0.782624641559248;
+                        ];
+                        recovery_id: "";
+                     ];
+                     calibration: [
+                        x: 0.47554144559503;
+                        y: -0.563416546199103;
+                        z: -0.516276145618496;
+                     ];
+                     sensor_correction: [
+                        x: 0.0;
+                        y: 0.0;
+                        z: 0.0;
+                     ];
+                     magn_drift_correction: ();
+                     accel: Motion_signal_real64 [
+                        data: PxStream "motion18.dat";
+                        name: "Shank Acceleration (sensor)";
+                        location: "human.lt.leg.shank";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "mG";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: 936.629881341773;
+                           y: -0.665309760405353;
+                           z: 315.0778211743;
+                        ];
+                        recovery_id: "";
+                     ];
+                     magn: Motion_signal_real64 [
+                        data: PxStream "motion19.dat";
+                        name: "Shank";
+                        location: "human.lt.leg.shank";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "mGauss";
+                        frequency: 50.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     gyro: Motion_signal_real64 [
+                        data: PxStream "motion20.dat";
+                        name: "Shank";
+                        location: "human.lt.leg.shank";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "deg/s";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     gyronull: Motion_signal_real64 [
+                        data: PxStream "motion21.dat";
+                        name: "Shank";
+                        location: "human.lt.leg.shank";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "rad/s";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     attitude: Motion_signal_real64 [
+                        data: PxStream "motion22.dat";
+                        name: "Shank";
+                        location: "human.lt.leg.shank";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     state: Motion_signal_real64 [
+                        data: PxStream "motion23.dat";
+                        name: "Shank";
+                        location: "human.lt.leg.shank";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     position: ();
+                     position_planar: ();
+                     base_sensor: "";
+                     course_invert: "no";
+                     pitch_invert: "no";
+                     roll_invert: "no";
+                     magn_size_calibration: 0.943641840728883;
+                     magn_dip_calibration: -47.1959361211617;
+                  ];
+                  T"human.lt.leg.foot": Skeleton.Clip.Segment [
+                     signal: Motion_signal_real64 [
+                        data: PxStream "motion72.dat";
+                        name: "Foot";
+                        location: "human.lt.leg.foot";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: -0.860627649630922;
+                           y: -0.41729694913633;
+                           z: -0.168999527112542;
+                        ];
+                        recovery_id: "";
+                     ];
+                     sensor_corrected: Motion_signal_real64 [
+                        data: PxStream "motion73.dat";
+                        name: "Foot";
+                        location: "human.lt.leg.foot";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: -0.860627649630922;
+                           y: -0.41729694913633;
+                           z: -0.168999527112542;
+                        ];
+                        recovery_id: "";
+                     ];
+                     calibration: [
+                        x: 0.456081537082123;
+                        y: -0.540360649504392;
+                        z: -0.540360649504392;
+                     ];
+                     sensor_correction: [
+                        x: 0.0;
+                        y: 0.0;
+                        z: 0.0;
+                     ];
+                     magn_drift_correction: ();
+                     accel: Motion_signal_real64 [
+                        data: PxStream "motion74.dat";
+                        name: "Foot Acceleration (sensor)";
+                        location: "human.lt.leg.foot";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "mG";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: 560.715729931751;
+                           y: -252.95263887888;
+                           z: -819.052146500852;
+                        ];
+                        recovery_id: "";
+                     ];
+                     magn: Motion_signal_real64 [
+                        data: PxStream "motion75.dat";
+                        name: "Foot";
+                        location: "human.lt.leg.foot";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "mGauss";
+                        frequency: 50.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     gyro: Motion_signal_real64 [
+                        data: PxStream "motion76.dat";
+                        name: "Foot";
+                        location: "human.lt.leg.foot";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "deg/s";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     gyronull: Motion_signal_real64 [
+                        data: PxStream "motion77.dat";
+                        name: "Foot";
+                        location: "human.lt.leg.foot";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "rad/s";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     attitude: Motion_signal_real64 [
+                        data: PxStream "motion78.dat";
+                        name: "Foot";
+                        location: "human.lt.leg.foot";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     state: Motion_signal_real64 [
+                        data: PxStream "motion79.dat";
+                        name: "Foot";
+                        location: "human.lt.leg.foot";
+                        side: "left";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     position: ();
+                     position_planar: ();
+                     base_sensor: "";
+                     course_invert: "no";
+                     pitch_invert: "no";
+                     roll_invert: "no";
+                     magn_size_calibration: 1.08329230878492;
+                     magn_dip_calibration: -63.1063937309126;
+                     contact: Analog_signal [
+                        name: "Contact";
+                        units: "";
+                        side: "left";
+                        location: "";
+                        color: [
+                           r: 0.855000019073486;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        type: "switch\tSwitch\ncontact\tContact";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        recovery_id: "";
+                        calibration: ();
+                        data: PxStream "analog2.r64";
+                     ];
+                  ];
+                  T"human.rt.leg.thigh": Skeleton.Clip.Segment [
+                     signal: Motion_signal_real64 [
+                        data: PxStream "motion80.dat";
+                        name: "Thigh";
+                        location: "human.rt.leg.thigh";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: 0.668310105159315;
+                           y: -0.136634320487674;
+                           z: 0.691170003170231;
+                        ];
+                        recovery_id: "";
+                     ];
+                     sensor_corrected: Motion_signal_real64 [
+                        data: PxStream "motion81.dat";
+                        name: "Thigh";
+                        location: "human.rt.leg.thigh";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: 0.668310105159315;
+                           y: -0.136634320487674;
+                           z: 0.691170003170231;
+                        ];
+                        recovery_id: "";
+                     ];
+                     calibration: [
+                        x: 0.47554144559503;
+                        y: -0.563416546199103;
+                        z: -0.516276145618496;
+                     ];
+                     sensor_correction: [
+                        x: 0.0;
+                        y: 0.0;
+                        z: 0.0;
+                     ];
+                     magn_drift_correction: ();
+                     accel: Motion_signal_real64 [
+                        data: PxStream "motion82.dat";
+                        name: "Thigh Acceleration (sensor)";
+                        location: "human.rt.leg.thigh";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "mG";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: 989.386501082455;
+                           y: 134.721267384937;
+                           z: 4.73231867135295;
+                        ];
+                        recovery_id: "";
+                     ];
+                     magn: Motion_signal_real64 [
+                        data: PxStream "motion83.dat";
+                        name: "Thigh";
+                        location: "human.rt.leg.thigh";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "mGauss";
+                        frequency: 50.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     gyro: Motion_signal_real64 [
+                        data: PxStream "motion84.dat";
+                        name: "Thigh";
+                        location: "human.rt.leg.thigh";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "deg/s";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     gyronull: Motion_signal_real64 [
+                        data: PxStream "motion85.dat";
+                        name: "Thigh";
+                        location: "human.rt.leg.thigh";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "rad/s";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     attitude: Motion_signal_real64 [
+                        data: PxStream "motion86.dat";
+                        name: "Thigh";
+                        location: "human.rt.leg.thigh";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     state: Motion_signal_real64 [
+                        data: PxStream "motion87.dat";
+                        name: "Thigh";
+                        location: "human.rt.leg.thigh";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     position: ();
+                     position_planar: ();
+                     base_sensor: "";
+                     course_invert: "no";
+                     pitch_invert: "no";
+                     roll_invert: "no";
+                     magn_size_calibration: 0.99295050018792;
+                     magn_dip_calibration: -46.246018457355;
+                  ];
+                  T"human.rt.leg.shank": Skeleton.Clip.Segment [
+                     signal: Motion_signal_real64 [
+                        data: PxStream "motion40.dat";
+                        name: "Shank";
+                        location: "human.rt.leg.shank";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: -0.554441385152313;
+                           y: -0.0827803626339965;
+                           z: -0.821087172859905;
+                        ];
+                        recovery_id: "";
+                     ];
+                     sensor_corrected: Motion_signal_real64 [
+                        data: PxStream "motion88.dat";
+                        name: "Shank";
+                        location: "human.rt.leg.shank";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: -0.554441385152313;
+                           y: -0.0827803626339965;
+                           z: -0.821087172859905;
+                        ];
+                        recovery_id: "";
+                     ];
+                     calibration: [
+                        x: 0.47554144559503;
+                        y: -0.563416546199103;
+                        z: -0.516276145618496;
+                     ];
+                     sensor_correction: [
+                        x: 0.0;
+                        y: 0.0;
+                        z: 0.0;
+                     ];
+                     magn_drift_correction: ();
+                     accel: Motion_signal_real64 [
+                        data: PxStream "motion42.dat";
+                        name: "Shank Acceleration (sensor)";
+                        location: "human.rt.leg.shank";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "mG";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: 908.525443938842;
+                           y: 7.75088623435383;
+                           z: 392.250164266092;
+                        ];
+                        recovery_id: "";
+                     ];
+                     magn: Motion_signal_real64 [
+                        data: PxStream "motion43.dat";
+                        name: "Shank";
+                        location: "human.rt.leg.shank";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "mGauss";
+                        frequency: 50.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     gyro: Motion_signal_real64 [
+                        data: PxStream "motion44.dat";
+                        name: "Shank";
+                        location: "human.rt.leg.shank";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "deg/s";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     gyronull: Motion_signal_real64 [
+                        data: PxStream "motion45.dat";
+                        name: "Shank";
+                        location: "human.rt.leg.shank";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "rad/s";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     attitude: Motion_signal_real64 [
+                        data: PxStream "motion46.dat";
+                        name: "Shank";
+                        location: "human.rt.leg.shank";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     state: Motion_signal_real64 [
+                        data: PxStream "motion47.dat";
+                        name: "Shank";
+                        location: "human.rt.leg.shank";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     position: ();
+                     position_planar: ();
+                     base_sensor: "";
+                     course_invert: "no";
+                     pitch_invert: "no";
+                     roll_invert: "no";
+                     magn_size_calibration: 0.935519202037341;
+                     magn_dip_calibration: -47.7998413844675;
+                  ];
+                  T"human.rt.leg.foot": Skeleton.Clip.Segment [
+                     signal: Motion_signal_real64 [
+                        data: PxStream "motion89.dat";
+                        name: "Foot";
+                        location: "human.rt.leg.foot";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: 0.944953969061626;
+                           y: -0.0952523374126429;
+                           z: 0.311663883688216;
+                        ];
+                        recovery_id: "";
+                     ];
+                     sensor_corrected: Motion_signal_real64 [
+                        data: PxStream "motion90.dat";
+                        name: "Foot";
+                        location: "human.rt.leg.foot";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: 0.944953969061626;
+                           y: -0.0952523374126429;
+                           z: 0.311663883688216;
+                        ];
+                        recovery_id: "";
+                     ];
+                     calibration: [
+                        x: 0.456081537082123;
+                        y: -0.540360649504392;
+                        z: -0.540360649504392;
+                     ];
+                     sensor_correction: [
+                        x: 0.0;
+                        y: 0.0;
+                        z: 0.0;
+                     ];
+                     magn_drift_correction: ();
+                     accel: Motion_signal_real64 [
+                        data: PxStream "motion91.dat";
+                        name: "Foot Acceleration (sensor)";
+                        location: "human.rt.leg.foot";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "mG";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: 662.907917815519;
+                           y: -7.16126342135739;
+                           z: -780.974270349525;
+                        ];
+                        recovery_id: "";
+                     ];
+                     magn: Motion_signal_real64 [
+                        data: PxStream "motion92.dat";
+                        name: "Foot";
+                        location: "human.rt.leg.foot";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "mGauss";
+                        frequency: 50.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     gyro: Motion_signal_real64 [
+                        data: PxStream "motion93.dat";
+                        name: "Foot";
+                        location: "human.rt.leg.foot";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "deg/s";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     gyronull: Motion_signal_real64 [
+                        data: PxStream "motion94.dat";
+                        name: "Foot";
+                        location: "human.rt.leg.foot";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "rad/s";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     attitude: Motion_signal_real64 [
+                        data: PxStream "motion95.dat";
+                        name: "Foot";
+                        location: "human.rt.leg.foot";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     state: Motion_signal_real64 [
+                        data: PxStream "motion96.dat";
+                        name: "Foot";
+                        location: "human.rt.leg.foot";
+                        side: "right";
+                        color: [
+                           r: 0.0;
+                           g: 0.0;
+                           b: 0.0;
+                        ];
+                        units: "";
+                        frequency: 50.0;
+                        begin_time: -0.00750000000000028;
+                        calibration: [
+                           x: ();
+                           y: ();
+                           z: ();
+                        ];
+                        recovery_id: "";
+                     ];
+                     position: ();
+                     position_planar: ();
+                     base_sensor: "";
+                     course_invert: "no";
+                     pitch_invert: "no";
+                     roll_invert: "no";
+                     magn_size_calibration: 0.623424812021876;
+                     magn_dip_calibration: 30.6067671732166;
+                     contact: Analog_signal [
+                        name: "Contact";
+                        units: "";
+                        side: "right";
+                        location: "";
+                        color: [
+                           r: 0.0;
+                           g: 0.595000028610229;
+                           b: 0.0;
+                        ];
+                        type: "switch\tSwitch\ncontact\tContact";
+                        frequency: 200.0;
+                        begin_time: 0.0;
+                        recovery_id: "";
+                        calibration: ();
+                        data: PxStream "analog3.r64";
+                     ];
+                  ];
+               ];
+               landmarks: [ ];
+               accel_mode: "sensor";
+               orientation_mode: "trajectory";
+               analog_channels: [ ];
+               knee_angles_secondary: "true";
+               correction: "off";
+               translation_enabled: "false";
+               wobbling_correction_enabled: "yes";
+               magnetometer_enabled: "yes";
+               fusion_profile: "standard";
+               data_loss_percent: 0.0;
+               bones: Person.Bone_set [
+                  T"skull.height": [
+                     size: 0.21255;
+                  ];
+                  T"shoulder.width": [
+                     size: 0.327;
+                  ];
+                  T"spine.height": [
+                     size: 0.58533;
+                  ];
+                  T"pelvis.width": [
+                     size: 0.302475;
+                  ];
+                  T"lt.arm.upper.length": [
+                     size: 0.30411;
+                  ];
+                  T"rt.arm.upper.length": [
+                     size: 0.30411;
+                  ];
+                  T"lt.arm.fore.length": [
+                     size: 0.23871;
+                  ];
+                  T"rt.arm.fore.length": [
+                     size: 0.23871;
+                  ];
+                  T"lt.arm.hand.length": [
+                     size: 0.155325;
+                  ];
+                  T"rt.arm.hand.length": [
+                     size: 0.155325;
+                  ];
+                  T"lt.leg.thigh.length": [
+                     size: 0.400575;
+                  ];
+                  T"rt.leg.thigh.length": [
+                     size: 0.400575;
+                  ];
+                  T"lt.leg.shank.length": [
+                     size: 0.40221;
+                  ];
+                  T"rt.leg.shank.length": [
+                     size: 0.40221;
+                  ];
+                  T"lt.leg.foot.length": [
+                     size: 0.1962;
+                  ];
+                  T"rt.leg.foot.length": [
+                     size: 0.1962;
+                  ];
+               ];
+               analogs: [ ];
+               processors: [ ];
+               marks_rula: Easy2_resource [
+                  data: PxStream "resource.object";
+                  serializer: "Resource_object";
+               ];
+               marks_reba: Easy2_resource [
+                  data: PxStream "resourc1.object";
+                  serializer: "Resource_object";
+               ];
+               marks_niosh: Easy2_resource [
+                  data: PxStream "resourc2.object";
+                  serializer: "Resource_object";
+               ];
+            ];
+         ];
+      ];
+   ];
+];

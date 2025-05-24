@@ -1,0 +1,44 @@
+﻿OPENDATA Person [
+   firstName: "";
+   lastName: "Val021";
+   hash: "";
+   sex: "male";
+   born: ();
+   picture: ();
+   comment: "";
+   custom: [
+      weight: WeightProperty [
+         name: "Weight";
+         value: ();
+      ];
+      height: LengthProperty [
+         name: "Height";
+         value: 1.73;
+      ];
+      street: StringProperty [
+         name: "Street";
+         value: "";
+      ];
+      cityCode: StringProperty [
+         name: "City & Code";
+         value: "";
+      ];
+      country: StringProperty [
+         name: "Country";
+         value: "";
+      ];
+      telephoneD: StringProperty [
+         name: "Telephone D.";
+         value: "";
+      ];
+      telephoneP: StringProperty [
+         name: "Telephone P.";
+         value: "";
+      ];
+      sendBy: StringProperty [
+         name: "Send by";
+         value: "";
+      ];
+   ];
+   tags: [ ];
+];

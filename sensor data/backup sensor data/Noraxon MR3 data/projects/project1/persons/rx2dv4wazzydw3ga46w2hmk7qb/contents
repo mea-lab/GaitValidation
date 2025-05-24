@@ -1,0 +1,94 @@
+﻿OPENDATA Person [
+   firstName: "";
+   lastName: "Val014";
+   hash: "";
+   sex: "female";
+   born: ();
+   picture: ();
+   comment: "";
+   custom: [
+      weight: WeightProperty [
+         name: "Weight";
+         value: ();
+      ];
+      height: LengthProperty [
+         name: "Height";
+         value: 1.585;
+      ];
+      street: StringProperty [
+         name: "Street";
+         value: "";
+      ];
+      cityCode: StringProperty [
+         name: "City & Code";
+         value: "";
+      ];
+      country: StringProperty [
+         name: "Country";
+         value: "";
+      ];
+      telephoneD: StringProperty [
+         name: "Telephone D.";
+         value: "";
+      ];
+      telephoneP: StringProperty [
+         name: "Telephone P.";
+         value: "";
+      ];
+      sendBy: StringProperty [
+         name: "Send by";
+         value: "";
+      ];
+   ];
+   bones: Person.Bone_set [
+      T"skull.height": [
+         size: 0.20605;
+      ];
+      T"shoulder.width": [
+         size: 0.317;
+      ];
+      T"spine.height": [
+         size: 0.56743;
+      ];
+      T"pelvis.width": [
+         size: 0.293225;
+      ];
+      T"lt.arm.upper.length": [
+         size: 0.29481;
+      ];
+      T"rt.arm.upper.length": [
+         size: 0.29481;
+      ];
+      T"lt.arm.fore.length": [
+         size: 0.23141;
+      ];
+      T"rt.arm.fore.length": [
+         size: 0.23141;
+      ];
+      T"lt.arm.hand.length": [
+         size: 0.150575;
+      ];
+      T"rt.arm.hand.length": [
+         size: 0.150575;
+      ];
+      T"lt.leg.thigh.length": [
+         size: 0.388325;
+      ];
+      T"rt.leg.thigh.length": [
+         size: 0.388325;
+      ];
+      T"lt.leg.shank.length": [
+         size: 0.38991;
+      ];
+      T"rt.leg.shank.length": [
+         size: 0.38991;
+      ];
+      T"lt.leg.foot.length": [
+         size: 0.1902;
+      ];
+      T"rt.leg.foot.length": [
+         size: 0.1902;
+      ];
+   ];
+   tags: [ ];
+];
