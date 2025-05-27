@@ -22,14 +22,18 @@ input_dir = "../Downloads/AFTERTRIM"
 
 
 # Run correlation 
-1. output sensor results by using sensor files in the "sensor data" folder 
-2. load sensor result excel and video analysis result excel 
-3. run the code cell to get correlation and figures 
+1. open analysis.ipynb file in the "Scripts" folder. 
+2. output sensor results by using sensor files in the "sensor data" folder and first code cell in the script(option)
+3. load sensor result excel and video analysis result excel under the "feature output" folder 
+4. run the code under "Generate correlation" cell to get correlation and figures 
 
 
-# Compare differences between patients and healthy control 
-modify this line to the right file in the "LLM analysis" folder 
+# Compare differences between patients and healthy control
+1. open analysis.ipynb file in the "Scripts" folder. 
+2. target at the last code cell. 
+3. modify this line to the right file in the "LLM analysis" folder 
 
 ```python 
 df = pd.read_excel(r"C:\Users\shuyu.liu\OneDrive - University of Florida\Documents\GitHub\GaitValidation\LLM analysis\large model", sheet_name="Sheet1")
 ```
+
