@@ -8,32 +8,32 @@ repository with data and analysis related to video-based gait analysis
    
 ```python
 # set up
-height_cm = 150
+height_cm = 166
 ```
 
 3. modify the location of the folder of the video in the code
    
 ```python
 # Set up directories
-input_dir = "../Downloads/AFTERTRIM"   
+input_dir = "../Downloads/DEMO"
 ```
 
 4. run the scipt and get the "feature_results.xlsx" file 
 
 
 # Run correlation 
-1. open analysis.ipynb file in the "Scripts" folder. 
-2. output sensor results by using sensor files in the "sensor data" folder and first code cell in the script(option)
+1. open analysis.ipynb file in the "Scripts" folder. (optional)
+2. output sensor results by using sensor files in the "sensor data" folder and first code cell in the script(optional)
 3. load sensor result excel and video analysis result excel under the "feature output" folder 
-4. run the code under "Generate correlation" cell to get correlation and figures 
+4. run the code under Correlation-large model.ipynb or Correlation-small model.ipynb file to get correlation and figures 
 
 
 # Compare differences between patients and healthy control
-1. open analysis.ipynb file in the "Scripts" folder. 
-2. target at the last code cell. 
-3. modify this line to the right file in the "LLM analysis" folder 
+1. open Analysis-LLM.ipynb file in the "Scripts" folder. 
+2. modify this line to the right file in the "LLM analysis" folder 
 
 ```python 
 df = pd.read_excel(r"C:\Users\shuyu.liu\OneDrive - University of Florida\Documents\GitHub\GaitValidation\LLM analysis\large model", sheet_name="Sheet1")
 ```
+
 
