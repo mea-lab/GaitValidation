@@ -29,11 +29,11 @@ input_dir = "../Downloads/DEMO"
 
 
 # Compare differences between patients and healthy control
-1. open Analysis-LLM.ipynb file in the "Scripts" folder. 
-2. modify this line to the right file in the "LLM analysis" folder 
+1. open Analysis-LMM.ipynb file in the "Scripts" folder. 
+2. modify this line to the right file in the "LMM analysis" folder 
 
 ```python 
-df = pd.read_excel(r"C:\Users\shuyu.liu\OneDrive - University of Florida\Documents\GitHub\GaitValidation\LLM analysis\large model", sheet_name="Sheet1")
+df = pd.read_excel(r"C:\Users\shuyu.liu\OneDrive - University of Florida\Documents\GitHub\GaitValidation\LMM analysis\large model", sheet_name="Sheet1")
 ```
 
 
