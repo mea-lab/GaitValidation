@@ -15,7 +15,7 @@ height_cm = 166
    
 ```python
 # Set up directories
-input_dir = "../Downloads/DEMO"
+input_dir = r"./DEMO"
 ```
 
 4. run the scipt and get the "feature_results.xlsx" file 
@@ -33,7 +33,12 @@ input_dir = "../Downloads/DEMO"
 2. modify this line to the right file in the "LMM analysis" folder 
 
 ```python 
-df = pd.read_excel(r"C:\Users\shuyu.liu\OneDrive - University of Florida\Documents\GitHub\GaitValidation\LMM analysis\large model", sheet_name="Sheet1")
+df = pd.read_excel(r"./LMM analysis/large model/video_all_df.xlsx", sheet_name="Sheet1")
 ```
 
+# Import data files into Noraxon software
+In the "Database" section, click "Import" in the right column, check "Import from External Location", choose the entire folder that you want to import and click "Select folder". Choose the subject and data and click "OK".
 
+!(r"./figure1.png")
+
+!(r"./figure2.png")
