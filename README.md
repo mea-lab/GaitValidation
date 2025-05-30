@@ -22,10 +22,9 @@ input_dir = r"./DEMO"
 
 
 # Run correlation 
-1. open analysis.ipynb file in the "Scripts" folder. (optional)
-2. output sensor results by using sensor files in the "sensor data" folder and first code cell in the script(optional)
-3. load sensor result excel and video analysis result excel under the "feature output" folder 
-4. run the code under Correlation-large model.ipynb or Correlation-small model.ipynb file to get correlation and figures 
+1. open Output Sensor result.ipynb file in the "Scripts" folder. (optional)
+2. output sensor results by using sensor files in the "sensor data" folder. (optional)
+3. run the code under Correlation-large model.ipynb or Correlation-small model.ipynb file to get correlation and figures 
 
 
 # Compare differences between patients and healthy control
