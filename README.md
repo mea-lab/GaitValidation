@@ -39,6 +39,6 @@ df = pd.read_excel(r"./LMM analysis/large model/video_all_df.xlsx", sheet_name="
 # Import data files into Noraxon software
 In the "Database" section, click "Import" in the right column, check "Import from External Location", choose the entire folder that you want to import and click "Select folder". Choose the subject and data and click "OK".
 
-!(r"./figure1.png")
+![Alt text](./figure2.png)
+![Alt text](./figure1.png)
 
-!(r"./figure2.png")
